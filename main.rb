@@ -2,7 +2,8 @@ require 'sinatra'
 require 'json'
 require "sinatra/reloader"
 configure do
-    @@presents ={"电饭锅"=>9,"水壶"=>8} 
+    @@presents ={"雑貨"=>21,"ゼロ・トン・ワンー君はゼロから何を生み出せるか"=>1,"速さは全てを解決するー「ゼロ秒思考」の仕事技"=>1,
+    "保温水桶"=>3,"タオルギフトセット"=>2,"北海道白いブラックサンダー"=>2,"新宿銀の蔵９月の誕生石"=>1,"空气清新器"=>1,"スワロフスキーペン(做惩罚游戏)"=>2,"CK名刺入れ(惩罚游戏)"=>1} 
 end
 set :public_folder, File.dirname(__FILE__) + '/static'
 
